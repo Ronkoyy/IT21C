@@ -19,3 +19,15 @@ if (hoursStudy >= 5) {
 } else {
   console.log("You need to study more.");
 }
+
+
+const subjects = [
+ "Event Driven",
+ "OOP",
+ "Web system",
+];
+
+console.log("My Subjects This Semester:");
+for (let i = 0; i < subjects.length; i++) {
+  console.log(`- ${subjects[i]}`);
+}
