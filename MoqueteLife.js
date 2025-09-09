@@ -31,3 +31,12 @@ console.log("My Subjects This Semester:");
 for (let i = 0; i < subjects.length; i++) {
   console.log(`- ${subjects[i]}`);
 }
+
+function studentSummary(){
+  console.log("My name is " + Name + ", a " + yearLevel + " from " + course);
+  return studentSummary;
+
+
+}
+
+console.log(studentSummary());
