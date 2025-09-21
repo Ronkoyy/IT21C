@@ -1,5 +1,4 @@
 class VendingMachine {
-
   #balance = 0;
   #inventory = {
     chips: { price: 25, stock: 5 },
@@ -71,5 +70,4 @@ vm.selectItem("soda");
 vm.selectItem("soda");
 vm.selectItem("soda");
 
-
-vm.developerMode("34"); 
+vm.developerMode("group3");s
